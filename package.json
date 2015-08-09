@@ -1,0 +1,36 @@
+{
+  "name": "css-unit-converter",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Performs conversions between different CSS units.",
+  "author": {
+    "name": "Seth Lopez",
+    "email": "seth@sethlopez.me",
+    "url": "http://sethlopez.me"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "scss",
+    "less",
+    "unit",
+    "convert",
+    "converter",
+    "conversion",
+    "px",
+    "em",
+    "rem"
+  ],
+  "repository": "https://github.com/sethlopezme/css-unit-converter",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {},
+  "activationCommands": {
+    "atom-text-editor": [
+      "css-unit-converter:pixels-to-ems",
+      "css-unit-converter:pixels-to-rems"
+    ]
+  }
+}

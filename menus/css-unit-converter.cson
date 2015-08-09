@@ -1,0 +1,35 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'CSS Unit Converter'
+      'submenu': [
+        {
+          'label': 'Convert Lines and Selections to Ems',
+          'command': 'css-unit-converter:pixels-to-ems'
+        },
+        {
+          'label': 'Convert Lines and Selections to Rems',
+          'command': 'css-unit-converter:pixels-to-rems'
+        }
+      ]
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'CSS Unit Converter'
+      'submenu': [
+        {
+          'label': 'Convert Lines and Selections to Ems',
+          'command': 'css-unit-converter:pixels-to-ems'
+        },
+        {
+          'label': 'Convert Lines and Selections to Rems',
+          'command': 'css-unit-converter:pixels-to-rems'
+        }
+      ]
+    ]
+  }
+]
