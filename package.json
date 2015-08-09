@@ -1,5 +1,5 @@
 {
-  "name": "css-unit-converter",
+  "name": "atom-css-unit-converter",
   "main": "./lib/main",
   "version": "0.1.0",
   "description": "Performs conversions between different CSS units.",
