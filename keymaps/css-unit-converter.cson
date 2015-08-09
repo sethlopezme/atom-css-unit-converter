@@ -7,6 +7,13 @@
 
 # For more detailed documentation see
 # https://atom.io/docs/latest/behind-atom-keymaps-in-depth
-'atom-text-editor':
-  'ctrl-alt-c e': 'css-unit-converter:pixels-to-ems',
-  'ctrl-alt-c r': 'css-unit-converter:pixels-to-rems'
+'.platform-darwin atom-text-editor':
+  'ctrl-c e': 'css-unit-converter:pixels-to-ems'
+  'ctrl-c r': 'css-unit-converter:pixels-to-rems'
+  'ctrl-c t': 'css-unit-converter:pixels-to-points'
+  'ctrl-c %': 'css-unit-converter:pixels-to-percents'
+'.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
+  'alt-c e': 'css-unit-converter:pixels-to-ems'
+  'alt-c r': 'css-unit-converter:pixels-to-rems'
+  'alt-c t': 'css-unit-converter:pixels-to-points'
+  'alt-c %': 'css-unit-converter:pixels-to-percents'

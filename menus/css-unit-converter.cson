@@ -11,6 +11,14 @@
         {
           'label': 'Convert Lines and Selections to Rems',
           'command': 'css-unit-converter:pixels-to-rems'
+        },
+        {
+          'label': 'Convert Lines and Selections to Points',
+          'command': 'css-unit-converter:pixels-to-points'
+        },
+        {
+          'label': 'Convert Lines and Selections to Percents',
+          'command': 'css-unit-converter:pixels-to-percents'
         }
       ]
     }
@@ -28,6 +36,14 @@
         {
           'label': 'Convert Lines and Selections to Rems',
           'command': 'css-unit-converter:pixels-to-rems'
+        },
+        {
+          'label': 'Convert Lines and Selections to Points',
+          'command': 'css-unit-converter:pixels-to-points'
+        },
+        {
+          'label': 'Convert Lines and Selections to Percents',
+          'command': 'css-unit-converter:pixels-to-percents'
         }
       ]
     ]
