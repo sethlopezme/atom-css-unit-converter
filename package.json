@@ -25,5 +25,13 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "activationCommands": {
+    "atom-text-editor": [
+      "atom-css-unit-converter:pixels-to-ems",
+      "atom-css-unit-converter:pixels-to-percents",
+      "atom-css-unit-converter:pixels-to-points",
+      "atom-css-unit-converter:pixels-to-rems"
+    ]
+  }
 }

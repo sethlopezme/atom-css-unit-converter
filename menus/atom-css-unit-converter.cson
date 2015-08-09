@@ -6,19 +6,19 @@
       'submenu': [
         {
           'label': 'Convert Lines and Selections to Ems',
-          'command': 'css-unit-converter:pixels-to-ems'
+          'command': 'atom-css-unit-converter:pixels-to-ems'
         },
         {
           'label': 'Convert Lines and Selections to Rems',
-          'command': 'css-unit-converter:pixels-to-rems'
+          'command': 'atom-css-unit-converter:pixels-to-rems'
         },
         {
           'label': 'Convert Lines and Selections to Points',
-          'command': 'css-unit-converter:pixels-to-points'
+          'command': 'atom-css-unit-converter:pixels-to-points'
         },
         {
           'label': 'Convert Lines and Selections to Percents',
-          'command': 'css-unit-converter:pixels-to-percents'
+          'command': 'atom-css-unit-converter:pixels-to-percents'
         }
       ]
     }
@@ -31,19 +31,19 @@
       'submenu': [
         {
           'label': 'Convert Lines and Selections to Ems',
-          'command': 'css-unit-converter:pixels-to-ems'
+          'command': 'atom-css-unit-converter:pixels-to-ems'
         },
         {
           'label': 'Convert Lines and Selections to Rems',
-          'command': 'css-unit-converter:pixels-to-rems'
+          'command': 'atom-css-unit-converter:pixels-to-rems'
         },
         {
           'label': 'Convert Lines and Selections to Points',
-          'command': 'css-unit-converter:pixels-to-points'
+          'command': 'atom-css-unit-converter:pixels-to-points'
         },
         {
           'label': 'Convert Lines and Selections to Percents',
-          'command': 'css-unit-converter:pixels-to-percents'
+          'command': 'atom-css-unit-converter:pixels-to-percents'
         }
       ]
     ]

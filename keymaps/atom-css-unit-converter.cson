@@ -8,12 +8,12 @@
 # For more detailed documentation see
 # https://atom.io/docs/latest/behind-atom-keymaps-in-depth
 '.platform-darwin atom-text-editor':
-  'ctrl-c e': 'css-unit-converter:pixels-to-ems'
-  'ctrl-c r': 'css-unit-converter:pixels-to-rems'
-  'ctrl-c t': 'css-unit-converter:pixels-to-points'
-  'ctrl-c %': 'css-unit-converter:pixels-to-percents'
+  'ctrl-c e': 'atom-css-unit-converter:pixels-to-ems'
+  'ctrl-c r': 'atom-css-unit-converter:pixels-to-rems'
+  'ctrl-c t': 'atom-css-unit-converter:pixels-to-points'
+  'ctrl-c %': 'atom-css-unit-converter:pixels-to-percents'
 '.platform-win32 atom-text-editor, .platform-linux atom-text-editor':
-  'alt-c e': 'css-unit-converter:pixels-to-ems'
-  'alt-c r': 'css-unit-converter:pixels-to-rems'
-  'alt-c t': 'css-unit-converter:pixels-to-points'
-  'alt-c %': 'css-unit-converter:pixels-to-percents'
+  'alt-c e': 'atom-css-unit-converter:pixels-to-ems'
+  'alt-c r': 'atom-css-unit-converter:pixels-to-rems'
+  'alt-c t': 'atom-css-unit-converter:pixels-to-points'
+  'alt-c %': 'atom-css-unit-converter:pixels-to-percents'
