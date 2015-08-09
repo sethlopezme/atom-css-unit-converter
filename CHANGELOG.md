@@ -2,7 +2,7 @@
 
 Releasing with the following features:
 
-- Pixels -> Ems
-- Pixels -> Rems
-- Pixels -> Points
-- Pixels -> Percents
+- Pixels to Ems
+- Pixels to Rems
+- Pixels to Points
+- Pixels to Percents
