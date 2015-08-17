@@ -1,24 +1,51 @@
 # See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
 'context-menu':
-  'atom-text-editor': [
+  'atom-text-editor:not([mini])': [
     {
       'label': 'CSS Unit Converter'
       'submenu': [
         {
-          'label': 'Convert Lines and Selections to Ems',
-          'command': 'atom-css-unit-converter:pixels-to-ems'
+          'label': 'Convert Pixels'
+          'submenu': [
+            {
+              'label': 'To Ems',
+              'command': 'atom-css-unit-converter:px-to-em'
+            },
+            {
+              'label': 'To Rems',
+              'command': 'atom-css-unit-converter:px-to-rem'
+            }
+          ]
         },
         {
-          'label': 'Convert Lines and Selections to Rems',
-          'command': 'atom-css-unit-converter:pixels-to-rems'
+          'label': 'Convert Ems'
+          'submenu': [
+            {
+              'label': 'To Pixels',
+              'command': 'atom-css-unit-converter:em-to-px'
+            },
+            {
+              'label': 'To Rems',
+              'command': 'atom-css-unit-converter:em-to-rem'
+            }
+          ]
         },
         {
-          'label': 'Convert Lines and Selections to Points',
-          'command': 'atom-css-unit-converter:pixels-to-points'
+          'label': 'Convert Rems'
+          'submenu': [
+            {
+              'label': 'To Pixels',
+              'command': 'atom-css-unit-converter:rem-to-px'
+            },
+            {
+              'label': 'To Ems',
+              'command': 'atom-css-unit-converter:rem-to-em'
+            }
+          ]
         },
         {
-          'label': 'Convert Lines and Selections to Percents',
-          'command': 'atom-css-unit-converter:pixels-to-percents'
+          'label': 'Toggle Interactive Converter',
+          'command': 'atom-css-unit-converter:interactive'
         }
       ]
     }
@@ -30,20 +57,47 @@
       'label': 'CSS Unit Converter'
       'submenu': [
         {
-          'label': 'Convert Lines and Selections to Ems',
-          'command': 'atom-css-unit-converter:pixels-to-ems'
+          'label': 'Convert Pixels'
+          'submenu': [
+            {
+              'label': 'To Ems',
+              'command': 'atom-css-unit-converter:px-to-em'
+            },
+            {
+              'label': 'To Rems',
+              'command': 'atom-css-unit-converter:px-to-rem'
+            }
+          ]
         },
         {
-          'label': 'Convert Lines and Selections to Rems',
-          'command': 'atom-css-unit-converter:pixels-to-rems'
+          'label': 'Convert Ems'
+          'submenu': [
+            {
+              'label': 'To Pixels',
+              'command': 'atom-css-unit-converter:em-to-px'
+            },
+            {
+              'label': 'To Rems',
+              'command': 'atom-css-unit-converter:em-to-rem'
+            }
+          ]
         },
         {
-          'label': 'Convert Lines and Selections to Points',
-          'command': 'atom-css-unit-converter:pixels-to-points'
+          'label': 'Convert Rems'
+          'submenu': [
+            {
+              'label': 'To Pixels',
+              'command': 'atom-css-unit-converter:rem-to-px'
+            },
+            {
+              'label': 'To Ems',
+              'command': 'atom-css-unit-converter:rem-to-em'
+            }
+          ]
         },
         {
-          'label': 'Convert Lines and Selections to Percents',
-          'command': 'atom-css-unit-converter:pixels-to-percents'
+          'label': 'Toggle Interactive Converter',
+          'command': 'atom-css-unit-converter:interactive'
         }
       ]
     ]

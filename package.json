@@ -25,13 +25,19 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "atom-space-pen-views": "^2.1.0",
+    "space-pen": "^5.1.1"
+  },
   "activationCommands": {
     "atom-text-editor": [
-      "atom-css-unit-converter:pixels-to-ems",
-      "atom-css-unit-converter:pixels-to-percents",
-      "atom-css-unit-converter:pixels-to-points",
-      "atom-css-unit-converter:pixels-to-rems"
+      "atom-css-unit-converter:px-to-em",
+      "atom-css-unit-converter:px-to-rem",
+      "atom-css-unit-converter:em-to-px",
+      "atom-css-unit-converter:em-to-rem",
+      "atom-css-unit-converter:rem-to-px",
+      "atom-css-unit-converter:rem-to-em",
+      "atom-css-unit-converter:interactive"
     ]
   }
 }
