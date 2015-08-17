@@ -1,4 +1,4 @@
-## 0.2.0
+## 1.0.0
 
 - Added the ability to convert between all calculable CSS units.
 - Added an interactive conversion dialog.
