@@ -2,7 +2,7 @@
 'context-menu':
   'atom-text-editor:not([mini])': [
     {
-      'label': 'CSS Unit Converter'
+      'label': 'Atom CSS Unit Converter'
       'submenu': [
         {
           'label': 'Convert Pixels'
@@ -44,8 +44,8 @@
           ]
         },
         {
-          'label': 'Toggle Interactive Converter',
-          'command': 'atom-css-unit-converter:interactive'
+          'label': 'Open Converter UI',
+          'command': 'atom-css-unit-converter:converter-ui'
         }
       ]
     }
@@ -54,7 +54,7 @@
   {
     'label': 'Packages'
     'submenu': [
-      'label': 'CSS Unit Converter'
+      'label': 'Atom CSS Unit Converter'
       'submenu': [
         {
           'label': 'Convert Pixels'
@@ -96,8 +96,8 @@
           ]
         },
         {
-          'label': 'Toggle Interactive Converter',
-          'command': 'atom-css-unit-converter:interactive'
+          'label': 'Open Converter UI',
+          'command': 'atom-css-unit-converter:converter-ui'
         }
       ]
     ]

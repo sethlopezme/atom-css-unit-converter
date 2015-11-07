@@ -37,7 +37,7 @@
       "atom-css-unit-converter:em-to-rem",
       "atom-css-unit-converter:rem-to-px",
       "atom-css-unit-converter:rem-to-em",
-      "atom-css-unit-converter:interactive"
+      "atom-css-unit-converter:converter-ui"
     ]
   }
 }

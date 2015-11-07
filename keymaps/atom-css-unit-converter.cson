@@ -10,8 +10,8 @@
 '.platform-darwin atom-text-editor:not([mini])':
   'ctrl-c e': 'atom-css-unit-converter:px-to-em'
   'ctrl-c r': 'atom-css-unit-converter:px-to-rem'
-  'ctrl-c c': 'atom-css-unit-converter:interactive'
+  'ctrl-c c': 'atom-css-unit-converter:converter-ui'
 '.platform-win32 atom-text-editor:not([mini]), .platform-linux atom-text-editor:not([mini])':
   'alt-c e': 'atom-css-unit-converter:px-to-em'
   'alt-c r': 'atom-css-unit-converter:px-to-rem'
-  'alt-c c': 'atom-css-unit-converter:interactive'
+  'alt-c c': 'atom-css-unit-converter:converter-ui'

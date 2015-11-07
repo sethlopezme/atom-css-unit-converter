@@ -1,4 +1,4 @@
-# CSS Unit Converter
+# Atom CSS Unit Converter
 
 Performs conversions between different CSS units.
 
@@ -16,7 +16,18 @@ Conversions can be made forward and backward between the following units:
 
 The base pixel size for conversions is 16px by default. This can be changed within the settings, or you can set the base pixel size at the end of the line you want to convert. E.g. `/24` at the end of a line sets the base pixel size to `24px` for that line only.
 
-See the examples below.
+## Default Keybindings
+
+### Mac
+- `ctrl-c e`: Convert pixels to ems
+- `ctrl-c r`: Convert pixels to rems
+- `ctrl-c c`: Open the conversion panel
+
+### Windows / Linux
+
+- `alt-c e`: Convert pixels to ems
+- `alt-c r`: Convert pixels to rems
+- `alt-c c`: Open the conversion panel
 
 ## Converting Lines
 
@@ -36,8 +47,8 @@ If a selection is made, conversions will be performed only within the bounds of 
 
 Converting lines and selections works the way you would expect and as described above.
 
-## Interactive Converter
+## Converter UI
 
-Managing keyboard shortcuts for every conversion isn't very practical, so this package also provides an interactive converter that you can use to convert between less-common units.
+Having keybindings for every conversion isn't very practical, so this package also provides a UI that allows you to convert between any of the units listed above. The UI allows you to define a custom pixel base for conversions, as well.
 
 ![Interactive Converter](https://raw.githubusercontent.com/sethlopezme/atom-css-unit-converter/master/resources/interactive-converter.png)
