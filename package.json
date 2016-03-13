@@ -2,7 +2,7 @@
   "name": "atom-css-unit-converter",
   "main": "./lib/main",
   "version": "1.0.2",
-  "description": "Performs conversions between different CSS units.",
+  "description": "Performs conversions between different CSS lengths.",
   "author": {
     "name": "Seth Lopez",
     "url": "http://sethlopez.me"
