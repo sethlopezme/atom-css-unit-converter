@@ -1,10 +1,11 @@
-## 1.0.3
+## 1.1.1
 
 - Fix #4: [Leading zero setting ignored for negative lengths](https://github.com/sethlopezme/atom-css-unit-converter/issues/4),
   caused by not taking a leading sign into account for values.
 - Rename the "Leading Zero" option to "Preserve Leading Zero", and updated the
   examples for that option to be more clear.
 - Update the css-length library to the latest version.
+- Screwed up the semver...
 
 ## 1.0.2
 
